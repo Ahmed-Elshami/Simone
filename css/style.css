@@ -1,0 +1,570 @@
+*{
+    font-family: "Poppins", sans-serif
+}
+.navbar .collapse .navbar-nav .nav-item a span{
+    color:#20C989;
+}
+.navbar .collapse .navbar-nav .nav-item a:hover{
+    color:#20C989;
+}
+.collapse .navbar-nav li {
+    padding-left: 10px;
+}
+.home {
+    background-image: url(../imgs/intro-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.home .groub1{
+    background-color: #111418;
+    opacity: 0.8;
+    height: 100vh;
+}
+ .caption h1{
+    font-size: 80px;
+}
+ .caption button{
+    border: 2px solid #20C997;
+    color:#20C997 ;
+}
+ .caption button:hover{
+    background-color: #20C997;
+    color: #FFF;
+    transition: all 0.5s;
+}
+ .icon{
+    position: fixed;
+    top: 200px;
+    right: 0;
+    width: 40px;
+}
+ .icon img {
+    width: 100%;
+    padding: 5px;
+    background-color: #555555;
+}
+/*Start section 2*/
+.about{
+    margin-top: 80px;
+    text-align: center;
+}
+.about h1{
+    font-size: 150px;
+    opacity: 0.1;
+}
+.about h3{
+    top: 60px;
+    left: 0;
+    font-size: 50px; 
+}
+.about .border{
+    width: 100px;
+    height: 4px;
+    background-color: #20C997;
+    margin: auto;
+}
+.about  .register ul{
+    list-style: none;
+    
+}
+.about .caption h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about .caption h4 span{
+    color: #20C997;
+}
+.about .register ul li span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.about .register ul li div{
+    color: #20C997;
+    display: inline;
+
+}
+.about .register button{
+    background-color:#1BAA80 ;
+}
+
+.about .number{
+    margin-top: 50px;
+    position: relative;
+}
+.about .number h2{
+    color: #6C757D;
+    font-size: 30px;
+    font-weight: bold;
+}
+.about .number .porder{
+    border-right: 2px dotted #6C757D  ;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 270px;
+    opacity: 0.2;
+}
+.whatido{
+    margin-top: 80px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    text-align: center;
+    background-color: #F8F9FA;
+}
+.whatido h1{
+    font-size: 150px;
+    opacity: 0.1;
+}
+.whatido h3{
+    top: 120px;
+    left: 0;
+    font-size: 50px; 
+}
+.whatido .border{
+    width: 100px;
+    height: 4px;
+    background-color: #20C997;
+}
+.whatido .container i{
+    transform: translate(-225px,80px);
+    background-color: #FFFFFF;
+    color: #20C997;
+    padding: 20px;
+    border-radius: 5px;
+}
+.whatido .container h3{
+    font-size: 30px;
+    text-align: left;
+    margin-left:100px ;
+}
+.whatido .container p{
+    font-size: 17px;
+    width: 350px;
+    margin: auto;
+    text-align: left;
+}
+.whatido .container .all{
+    margin-top:-30px ;
+}
+/*Start section 3*/
+.resume{
+    margin-top: 80px;
+    text-align: center;
+}
+.resume .container{
+    margin-top: 30px;
+}
+.resume .container .cap-infoo{
+    margin-bottom: 25px;
+}
+.resume h1{
+    font-size: 150px;
+    opacity: 0.1;
+}
+.resume h3{
+    top: 60px;
+    left: 0;
+    font-size: 50px; 
+}
+.resume .border{
+    width: 100px;
+    height: 4px;
+    background-color: #20C997;
+}
+.resume .cap-infoo{
+    border: 1px solid #dee2e6;
+}
+.resume  h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.resume .cap-infoo .p1 {
+    background-color: #20C997;
+    width: 110px;
+}
+.resume .cap-infoo h5 span{
+    color: #DD5E75;
+}
+.resume .skill .progress{
+    height: 8px;
+    margin-top: -5px;
+}
+.resume .skill .progress .progress-bar{
+    background-color: #20C997;
+}
+.resume .skill .hhh{
+    opacity: 0;
+}
+.resume .linkk button{
+    color: #6C757D;
+    border-color:#6C757D ;
+    font-size: 17px;
+    border-width:2px;
+}
+.resume .linkk button i{
+    color: #6C757D;
+}
+.resume .linkk button:hover{ 
+    background-color: #6C757D;
+    color: #FFF;
+}
+.resume .linkk button i:hover{
+    color: #FFF;
+}
+/* Start section 4 */
+.portfolio{
+   background-color:  #F8F9FA;
+   padding-bottom: 180px;
+}
+.portfolio .caption{
+    padding-top: 40px;
+}
+.portfolio .caption h1{
+    font-size: 150px;
+    opacity: 0.1;
+}
+.portfolio .caption h3{
+    top: 90px;
+    left: 0;
+    font-size: 50px; 
+}
+.portfolio .caption .border{
+    width: 100px;
+    height: 4px;
+    background-color: #20C997;
+}
+.portfolio .links ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.portfolio .links li{
+    padding: 10px;
+}
+.portfolio .links li a{
+    text-decoration: none;
+    padding: 5px;
+    color: #000;
+}
+.portfolio .links li a span{
+   color: #20C997;
+}
+.portfolio .links li .border{
+    width: 35px;
+    height: 5px;
+    background-color: #20C997;
+}
+.portfolio .links ul li a:hover {
+    color:#20C997 ;
+}
+
+/*!!! مؤقت لما بعد المناقشة مع حضرتك*/
+.portfolio .part1 .part1-1 .port-caption{
+    height: 92%;
+    opacity: 0;
+    transition: all 0.2s;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio .part1 .part1-1 .port-caption p{
+    color:#c7c7c7 ;
+    font-size: 17px;
+}
+.portfolio .part1 .part1-1 .port-caption:hover {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+}
+.portfolio .part1 .part1-2 .port-caption{
+    height: 100%;
+    opacity: 0;
+    transition: all 0.2s;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio .part1 .part1-2 .port-caption p{
+    color:#c7c7c7 ;
+    font-size: 17px;
+}
+.portfolio .part1 .part1-2 .port-caption:hover {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+}
+/*!!! مؤقت لما بعد المناقشة مع حضرتك*/
+.portfolio .part2 .part2-1 .port-caption{
+    height: 96.5%;
+    opacity: 0;
+    transition: all 0.2s;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio .part2 .part2-1 .port-caption p{
+    color:#c7c7c7 ;
+    font-size: 17px;
+}
+.portfolio .part2 .part2-1 .port-caption:hover {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+}
+/*question!!!*/
+.portfolio .part2 .part2-2 .port-caption{
+    height: 100%;
+    opacity: 0;
+    transition: all 0.2s;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio .part2 .part1-2 .port-caption p{
+    color:#c7c7c7 ;
+    font-size: 17px;
+}
+.portfolio .part2 .part2-2 .port-caption:hover {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+}
+/*!!! مؤقت لما بعد المناقشة مع حضرتك*/
+.portfolio .part3 .part3-1 .port-caption{
+    height: 92%;
+    opacity: 0;
+    transition: all 0.2s;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio .part3 .part3-1 .port-caption p{
+    color:#c7c7c7 ;
+    font-size: 17px;
+}
+.portfolio .part3 .part3-1 .port-caption:hover {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+}
+/*!!! مؤقت لما بعد المناقشة مع حضرتك*/
+.portfolio .part3 .part3-2 .port-caption{
+    height: 92%;
+    opacity: 0;
+    transition: all 0.2s;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio .part3 .part3-2 .port-caption p{
+    color:#c7c7c7 ;
+    font-size: 17px;
+}
+.portfolio .part3 .part3-2 .port-caption:hover {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+}
+/*!!! مؤقت لما بعد المناقشة مع حضرتك*/
+.portfolio .part3 .part3-3 .port-caption{
+    height: 100%;
+    opacity: 0;
+    transition: all 0.2s;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio .part3 .part3-3 .port-caption p{
+    color:#c7c7c7 ;
+    font-size: 17px;
+}
+.portfolio .part3 .part3-3 .port-caption:hover {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+}
+/*Start section 5*/
+.client{
+    padding-bottom:40px ;
+    margin-top: 50px;
+}
+.client h1{
+    font-size: 150px;
+    opacity: 0.1;
+}
+.client h3{
+    top: 60px;
+    left: 0;
+    font-size: 50px; 
+}
+.client .border{
+    width: 100px;
+    height: 4px;
+    background-color: #20C997;
+}
+.client .text{
+    background-color: #F8F9FA;
+    padding: 30px;
+}
+.client .caption1{
+    margin-left: 80px;
+    padding-top: 5px;
+}
+.client .caption1 p {
+    color: #6D767E;
+}
+.client .text p{
+    font-size: 17px;
+    line-height: 25px;
+}
+.client .text i{
+    color: #FFC107;
+    margin-top: 10px;
+}
+.butto{
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+}
+.butto button{
+    background-color: #6D767E;
+    width: 10px;
+    height: 15px;
+    margin-left: 10px;
+}
+.butto button:hover{
+    border: 1px solid #20C997;
+    border-width: 2px;
+}
+/*start section 6*/
+.contact{
+    background-color: #F8F9FA;
+}
+.contact .caption h1{
+    font-size: 150px;
+    opacity: 0.1;
+}
+.contact .caption h3{
+    top: 60px;
+    left: 0;
+    font-size: 50px; 
+}
+.contact .caption .border{
+    width: 100px;
+    height: 5px;
+    background-color: #20C997;
+}
+.contact{
+    padding-bottom: 50px;
+}
+.contact .text-addres .p1{
+    font-size: 17px;
+    color: #626563;
+    width: 190px;
+    margin-bottom: 30px;
+} 
+.contact .text-addres .pi1 p{
+    color: #626563;
+}
+.contact .text-addres .pi1 i{
+    color: #1BAC82;
+}
+.contact .text-addres .pi2 p{
+    color: #626563;
+}
+.contact .text-addres .pi2 i{
+    color: #1BAC82;
+}
+.contact .text-addres .pi3 p{
+    color: #626563;
+}
+.contact .text-addres .pi3 i{
+    color: #1BAC82;
+}
+.contact .edit{
+    margin-top: 30px;
+}
+.contact .submitt button{
+    background-color: #20C997;
+    color: #FFF;
+    border: none;
+    transition: all 1s;
+}
+.contact .submitt button:hover{
+    background-color: #1BAA80;
+}
+/*Start section 7*/
+.end{
+    margin-top: 60px;
+    padding-bottom: 50px;
+}
+.end .cap p{
+    font-size: 18px;
+}
+.end .cap p span{
+    color: #1BAC82;
+}
+.end .cap ul{
+    list-style: none;
+}
+.end .cap ul li{
+    display: inline;
+    padding: 5px;
+}
+.end .cap ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.end .cap ul li a:hover{
+    color:#1BAC82;
+}
+.end .cap ul .opicity a {
+    opacity: 0.3;
+}
+
+
+
+
+.layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: all 0.5s;
+}
+.work{
+    position: relative;
+}
+.work:hover .layer{
+    opacity: 1;
+}
+.work:hover img{
+    transform: scale(1.1) ;
+}
+.work{
+    overflow: hidden;
+}
+.work img{
+    transition: all 0.5s;
+}
+.nav-item button {
+  background-color: transparent !important;
+  color: gray !important;
+}
+.nav-item button.active {
+    color: #20c977 !important;
+    border-bottom:2px solid #20c977 !important ;
+  }
+  .nav-item button:hover{
+      color: #20c977 !important;
+  }
